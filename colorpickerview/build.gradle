@@ -16,6 +16,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.dokka'
 apply from: "$rootDir/dependencies.gradle"
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.514721857'
 
 android {
   compileSdkVersion versions.compileSdk
